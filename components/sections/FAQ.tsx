@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useState, useRef } from 'react'
 import { motion, useInView, AnimatePresence } from 'framer-motion'
@@ -7,27 +7,27 @@ import { Plus, Minus } from 'lucide-react'
 const faqs = [
   {
     q: 'What exactly do I get in the report?',
-    a: 'You get a professional PDF (10–60 pages depending on plan) covering SEO, performance, security, accessibility, mobile optimization, and UX — each with scored findings, screenshots, and a clear fix-by-fix action list. The Growth and Revenue plans also include competitor benchmarks and a structured 30 or 90-day growth plan.',
+    a: 'You get a professional PDF (10â€“60 pages depending on plan) covering SEO, performance, security, accessibility, mobile optimization, and UX â€” each with scored findings, screenshots, and a clear fix-by-fix action list. The Growth and Revenue plans also include competitor benchmarks and a structured 30 or 90-day growth plan.',
   },
   {
     q: 'How does the 24-hour delivery work?',
-    a: 'Once your order is placed and your website details are submitted, our AI engine begins scanning immediately. A human expert reviews the output, compiles the PDF report, and delivers it to your email inbox — typically within 12–24 hours. Most orders arrive well within 24 hours.',
+    a: 'Once your order is placed and your website details are submitted, our AI engine begins scanning immediately. A human expert reviews the output, compiles the PDF report, and delivers it to your email inbox â€” typically within 12â€“24 hours. Most orders arrive well within 24 hours.',
   },
   {
     q: 'Do I need any technical knowledge to understand the report?',
-    a: "No. Every finding is written in plain English with a clear severity rating (Critical / High / Medium / Low), what it means for your business, and exactly how to fix it. You can hand the report directly to a developer or agency and they'll know what to do.",
+    a: "No. Every finding is written in plain English with a clear severity rating (Critical / High / Medium / Low), what it means for your business, and exactly how to fix it. You can hand the report directly to a developer or agency and they will know what to do.",
   },
   {
     q: 'Will the audit work on any website platform?',
-    a: 'Yes — Shopify, WordPress, Webflow, Wix, Squarespace, BigCommerce, custom-built sites, and any other platform with a public URL. As long as your site is live and publicly accessible, we can audit it.',
+    a: 'Yes â€” Shopify, WordPress, Webflow, Wix, Squarespace, BigCommerce, custom-built sites, and any other platform with a public URL. As long as your site is live and publicly accessible, we can audit it.',
   },
   {
-    q: 'What if I'm not happy with the report?',
-    a: 'If you feel the report missed the mark, reach out within 7 days and we'll work to make it right — either with a revised report or a full refund. We're building a reputation here, so your satisfaction matters.',
+    q: 'What if I am not happy with the report?',
+    a: 'If you feel the report missed the mark, reach out within 7 days and we will work to make it right â€” either with a revised report or a full refund. We are building a reputation here, so your satisfaction matters.',
   },
   {
     q: 'Can I buy a report for a client\'s website?',
-    a: 'Absolutely. Many agencies and freelancers use our reports as a discovery deliverable or upsell tool. Just enter the client's website URL during checkout. The report is branded neutrally so you can present it however you like.',
+    a: 'Absolutely. Many agencies and freelancers use our reports as a discovery deliverable or upsell tool. Just enter the client website URL during checkout. The report is branded neutrally so you can present it however you like.',
   },
   {
     q: 'Is payment secure?',
@@ -145,3 +145,4 @@ export default function FAQ() {
     </section>
   )
 }
+
